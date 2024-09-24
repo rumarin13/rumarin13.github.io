@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ecology</title>
+
+    <meta name="description" content='Descubre artículos informativos sobre temas ambientales como la protección de la capa de ozono, la prevención de incendios forestales y la conservación de la biodiversidad en nuestra página web. Explora contenido bien investigado y redactado que informa e inspira a la acción para proteger nuestro planeta. Únete a nuestra comunidad comprometida con la sostenibilidad y descubre cómo puedes contribuir a soluciones positivas para los desafíos ambientales actuales.' >
+
+    <meta name="keywords" content="eco,ecosistemas,ecologia,reciclaje">
+
+    <meta name="author" content="Rubén Marín Ruiz">
+
+    <meta name="robots" content="index,follow">
+
+    <link rel="icon" href="../icono_hoja.ico">
+
+    <link rel="stylesheet" href="../css/ecology.css">
+
+    <script src="../js/jquery-3.7.1.js"></script>
+
+</head>
+<body>
+    <header  class ='header'>
+
+        <h1 class="logo"><strong>ECOLOGY</strong></h1>
+
+        <div class="nav_bar">
+
+            <a href="../index.html" >INICIO</a>
+
+            <a href="./galeria.html">GALERIA</a>
+
+            <a href="./presupuesto.html" class="marcado">PRESUPUESTO</a>
+
+            <a href="./contacto.html">CONTACTO</a>
+            
+        </div>
+
+    </header>
+
+    <main >
+
+    <form action="#" method="post" id="formulario_de_solicitud" class="column">
+
+        <h1><strong>FORMULARIO DE SOLICITUD</strong></h1>
+
+
+            <h2>DATOS DE CONTACTO</h2>
+
+            <div id="datos_contacto" class="row">
+                
+
+                <ul>
+
+                    <li><label for="nombre">Nombre:</label></li>
+
+                    <li><label for="apellidos">Apellidos:</label></li>
+
+                    <li><label for="telefono_de_contacto">Teléfono de contacto:</label></li>
+
+                    <li><label for="correo_electronico">Correo electrónico:</label></li>
+
+                </ul>
+
+                <ul>
+
+                    <li> <input type="text" name="nombre" id="nombre" placeholder="Nombre"></li>
+
+                    <li><input type="text" name="Apellidos" id="apellidos" placeholder="Apellidos"></li>
+
+                    <li><input type="text" name="Teléfono de contacto" id="telefono_de_contacto" placeholder="Teléfono de contacto"></li>
+
+                    <li><input type="text" name="Correo electrónico" id="correo_electronico" placeholder="Correo electrónico"></li>
+                </ul>
+
+            </div>
+
+
+
+
+
+
+            <h2>PRESUPUESTO</h2>
+
+
+            <div id="presupuesto" class="column"> 
+
+                <label for="productos">Elige el producto:</label>
+                <select name="productos" id="productos">
+                    <option value="0"> nada</option>
+                    <option value="1">20€ - Pack de camisetas</option>
+                    <option value="2">12€ - Pack de calzados</option>
+                    <option value="3">30€ - Pack de cosas utiles</option>
+
+                </select>
+
+
+                <div id="tamaño" class="row">
+
+                    <input type="button" value="pequeño" id="pequeño">
+
+                    <input type="button" value="normal" id="normal">
+
+                    <input type="button" value="grande" id="grande">
+                    
+                </div>
+
+
+                <div id="plazo_final">
+
+                    <label for="plazo">Plazo:</label>
+
+                    <input type="number" id="plazo" placeholder=" Días" title="número de días" value="5">
+
+                    <span>dias</span>
+
+
+                </div>
+
+                <h3>EXTRAS:</h3>
+
+                <ul  class='row checkbox_extras'>
+                    <li>
+                        
+                        <input type="checkbox" name="paquete_folios_extra" id="paquete_folios_extra">
+
+                        <label for="paquete_folios_extra">Paquete de folios reciclados</label>
+                    </li>
+
+                    <li>
+                        
+                        <input type="checkbox" name="camisetas_extra" id="camisetas_extra">
+                        <label for="camisetas_extra">Camisetas hechas con material reciclado</label>
+                    </li>
+
+                    <li>
+                        
+                        <input type="checkbox" name='sandalias_extra ' id="sandalias_extra">
+                        <label for="sandalias_extra">Sandalias naturales</label>
+                    </li>
+                
+                </ul>
+
+                <div class="presu_div">
+                    
+                    <label for="presupuesto_input">Presupuesto final:</label>
+
+                    <input type="text" name="presupuesto_input" id="presupuesto_input" value="0">
+
+                    <span>€</span>
+
+                </div>
+
+                
+                
+
+
+
+            </div>
+
+
+            <div class="terminos_div">
+                <input type="checkbox"  name="terminos_privacidad"  id="terminos_privacidad" required>
+
+                <label for="terminos_privacidad">He leido y acepto la política de privacidad</label>
+            </div>
+
+            <input type="submit" value="ENVIAR" id="submit_enviar">
+        </form>
+
+
+    </main>
+
+
+
+
+
+
+
+    <footer>
+    
+
+        <div class="visitanos">
+
+            <span>¡VISITA NUESTRAS REDES!</span>
+
+            <div class="icons">
+
+                <a href='https://www.facebook.com/ecology' ><img src="../assets/fotos/facebook.png" title="facebook" width="512" height="512" class="crece"></a>
+
+                <a href='https://www.instagram.com/ecology'><img src="../assets/fotos/instagram.png" title="instagram"  width="512" height="512" class="crece"></a>
+
+                <a href='https://www.x.com/ecology'><img src="../assets/fotos/x.png" title="x"  width="512" height="512" class="crece"></a>
+            </div>
+
+        </div>
+
+        <div class="terminos">
+
+            <span>&copy; 2024 ECOLOGY ,todos los derechos reservados </span>
+
+            <span> C/Real de Arganda Nº33.</span>
+
+            <span class="crece"><a href="./views/contacto.html">¡Contacta con nosotros!</a></span>
+            
+        </div>
+
+
+    </footer>
+
+
+
+    <script src="../js/presupuesto.js"></script>
+    <script src="../js/navegador.js"></script>
+</body>
+</html>
